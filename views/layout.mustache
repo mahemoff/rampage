@@ -1,0 +1,28 @@
+<html>
+
+  <head>
+
+    <link rel="stylesheet" href="/rampage.css"></link>
+    <script src="/lib/jquery-1.5.1.min.js"></script>
+    <script src="/lib/mustache.js"></script>
+    <script src="rampage.js"></script>
+    <script id="monsters_template" type="x-mustache">{{{monsters_template}}}</script>
+    <script id="monster_template" type="x-mustache">{{{monster_template}}}</script>
+  </head>
+
+  <body>
+
+    <h1><a href="/">Know Your Rampage</a></h1>
+
+    <div id="main">
+      {{{yield}}}
+    </div>
+  
+    <div class="footer">
+      Technical demo and an unofficial fan app about the
+      <a href="http://en.wikipedia.org/wiki/Rampage_(arcade_game)">Rampage video game.</a>
+    </div>
+
+  </body>
+
+</html>
