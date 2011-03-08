@@ -1,0 +1,6 @@
+HTML5 History Demo
+
+* Uses pushState to switch pages.
+* Uses hijax - if pushState's not supported, JavaScript is turned off, or the
+  app doesn't know how to dynamically switch to a particular URL.
+* Downloads content on demand, as RESTful services.
